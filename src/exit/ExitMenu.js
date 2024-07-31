@@ -17,7 +17,7 @@ const ExitMenu = () => {
     <div className='center'>
         <p className='pExit'>Do you want to exit ?</p>
            <button  className='button1' onClick={handleRedirect}>  YES </button> 
-            <button className='button2' onClick={()=>Navigate1}>NO</button>
+            <button className='button2' onClick={Navigate1}>NO</button>
     </div>
   )
   
